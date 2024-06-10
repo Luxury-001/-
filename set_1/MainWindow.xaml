@@ -1,0 +1,21 @@
+﻿<Window x:Class="set_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:set_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.615,0.511">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="82*"/>
+            <ColumnDefinition Width="343*"/>
+            <ColumnDefinition Width="375*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="28,182,0,0" TextWrapping="Wrap" Text="Таблица:(1,2,3)" VerticalAlignment="Top" Height="16" Width="86" Grid.Column="1"/>
+        <TextBox x:Name="TablName" HorizontalAlignment="Left" Margin="142,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Grid.Column="1" Height="18"/>
+        <Button Content="Подключиться" HorizontalAlignment="Left" Margin="172,30,0,0" VerticalAlignment="Top" Click="BDD_Click" Height="20" Width="84" Grid.Column="1" RenderTransformOrigin="0.475,0.517"/>
+        <Button Content="Подключиться" HorizontalAlignment="Left" Margin="172,233,0,0" VerticalAlignment="Top" Click="Tabl_Click" Height="20" Width="84" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,29,0,0" TextWrapping="Wrap" Text="База данных" VerticalAlignment="Top" Height="16" Width="88" Grid.Column="1"/>
+    </Grid>
+</Window>
